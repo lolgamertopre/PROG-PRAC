@@ -1,9 +1,9 @@
 #include <stdio.h>  
 int main () {    
-   int n,i,j;
+   int n,j;
     printf("Enter an integer: ");
 
-    if (scanf("%d", &n) != 1) 
+    if (scanf("%d", &n) != 1) {
         printf("Invalid input");
         return 0;   
 }
@@ -12,7 +12,7 @@ int main () {
         return 0;   
     }
     for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= i; j++) 
+        for (int j = 1; j <= 1; j++) 
             printf("*");
         }
         printf("\n");
